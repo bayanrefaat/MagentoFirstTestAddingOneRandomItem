@@ -6,7 +6,7 @@
       <class name="AddOneRandomItem">
         <methods>
           <include name="MySetup"/>
-          <include name="AddOneItem"/>
+          <include name="SignUp"/>
         </methods>
       </class> <!-- AddOneRandomItem -->
     </classes>

@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-15T14:32:16 EET" name="Default suite" finished-at="2024-03-15T14:32:40 EET" duration-ms="23917">
+  <suite started-at="2024-03-16T16:23:13 EET" name="Default suite" finished-at="2024-03-16T16:24:00 EET" duration-ms="47558">
     <groups>
     </groups>
-    <test started-at="2024-03-15T14:32:16 EET" name="Default test" finished-at="2024-03-15T14:32:40 EET" duration-ms="23917">
+    <test started-at="2024-03-16T16:23:13 EET" name="Default test" finished-at="2024-03-16T16:24:00 EET" duration-ms="47558">
       <class name="AddOneRandomItem">
-        <test-method is-config="true" signature="MySetup()[pri:0, instance:AddOneRandomItem@1d470d0]" started-at="2024-03-15T14:32:16 EET" name="MySetup" finished-at="2024-03-15T14:32:23 EET" duration-ms="7410" status="PASS">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:AddOneRandomItem@54c62d71]" started-at="2024-03-16T16:23:13 EET" name="MySetup" finished-at="2024-03-16T16:23:16 EET" duration-ms="3193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetup -->
-        <test-method signature="AddOneItem()[pri:0, instance:AddOneRandomItem@1d470d0]" started-at="2024-03-15T14:32:23 EET" name="AddOneItem" finished-at="2024-03-15T14:32:40 EET" duration-ms="16422" status="PASS">
+        <test-method signature="AddOneItem()[pri:1, instance:AddOneRandomItem@54c62d71]" started-at="2024-03-16T16:23:16 EET" name="AddOneItem" finished-at="2024-03-16T16:23:24 EET" duration-ms="8478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddOneItem -->
+        <test-method signature="CheckOut()[pri:2, instance:AddOneRandomItem@54c62d71]" started-at="2024-03-16T16:23:24 EET" name="CheckOut" finished-at="2024-03-16T16:23:28 EET" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+        <test-method signature="SignUp()[pri:3, instance:AddOneRandomItem@54c62d71]" started-at="2024-03-16T16:23:28 EET" name="SignUp" finished-at="2024-03-16T16:24:00 EET" duration-ms="31647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
       </class> <!-- AddOneRandomItem -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
